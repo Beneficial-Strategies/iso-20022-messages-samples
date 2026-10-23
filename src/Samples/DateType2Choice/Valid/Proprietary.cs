@@ -1,6 +1,6 @@
 // Copyright 2026 Jeff Ward, Beneficial Strategies. Usage subject to license of enclosing library.
 
-namespace BeneficialStrategies.Iso20022.Samples.DateType2Choice.Valid;
+namespace BeneficialStrategies.Iso20022.Messages.Samples.DateType2Choice.Valid;
 
 /// <summary>Valid samples of <c>Proprietary</c> of <c>DateType2Choice</c>.</summary>
 public static class Proprietary

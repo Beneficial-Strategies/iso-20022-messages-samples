@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Samples\BeneficialStrategies.Iso20022.Samples.csproj" />
+    <ProjectReference Include="..\..\src\Samples\BeneficialStrategies.Iso20022.Messages.Samples.csproj" />
   </ItemGroup>
 
 </Project>

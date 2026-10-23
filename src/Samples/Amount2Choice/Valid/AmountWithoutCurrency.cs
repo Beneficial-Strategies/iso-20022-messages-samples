@@ -1,6 +1,6 @@
 // Copyright 2026 Jeff Ward, Beneficial Strategies. Usage subject to license of enclosing library.
 
-namespace BeneficialStrategies.Iso20022.Samples.Amount2Choice.Valid;
+namespace BeneficialStrategies.Iso20022.Messages.Samples.Amount2Choice.Valid;
 
 /// <summary>Valid samples of <c>AmountWithoutCurrency</c> of <c>Amount2Choice</c>.</summary>
 public static class AmountWithoutCurrency

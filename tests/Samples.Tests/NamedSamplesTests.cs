@@ -2,7 +2,7 @@
 
 using System.Reflection;
 
-namespace BeneficialStrategies.Iso20022.Samples.Tests;
+namespace BeneficialStrategies.Iso20022.Messages.Samples.Tests;
 
 /// <summary>What every named sample promises, found by reflection so a new sample is checked without a new test.</summary>
 public class NamedSamplesTests

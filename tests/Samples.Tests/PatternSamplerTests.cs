@@ -2,9 +2,9 @@
 
 using System.Reflection;
 using System.Text.RegularExpressions;
-using BeneficialStrategies.Iso20022.Samples;
+using BeneficialStrategies.Iso20022.Messages.Samples;
 
-namespace BeneficialStrategies.Iso20022.Samples.Tests;
+namespace BeneficialStrategies.Iso20022.Messages.Samples.Tests;
 
 public class PatternSamplerTests
 {

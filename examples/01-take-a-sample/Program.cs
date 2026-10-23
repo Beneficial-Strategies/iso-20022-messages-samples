@@ -1,10 +1,10 @@
 // Example 01: take a sample.
 // Shows:  a named sample of a choice, and that every access builds a new object.
-// Needs:  BeneficialStrategies.Iso20022.Samples (which brings the interfaces).
+// Needs:  BeneficialStrategies.Iso20022.Messages.Samples (which brings the interfaces).
 // Prints: the sample, and whether two accesses give the same object and equal objects.
 using BeneficialStrategies.Iso20022.Choices;
 using BeneficialStrategies.Iso20022.Choices.AccountIdentification4Choice;
-using Samples = BeneficialStrategies.Iso20022.Samples;
+using Samples = BeneficialStrategies.Iso20022.Messages.Samples;
 
 // <snippet take>
 // a valid account identification, the IBAN variant of the choice

@@ -1,6 +1,6 @@
 // Copyright 2026 Jeff Ward, Beneficial Strategies. Usage subject to license of enclosing library.
 
-namespace BeneficialStrategies.Iso20022.Samples.AccountIdentification4Choice.Valid;
+namespace BeneficialStrategies.Iso20022.Messages.Samples.AccountIdentification4Choice.Valid;
 
 /// <summary>Valid samples of <c>Other</c> of <c>AccountIdentification4Choice</c>.</summary>
 public static class Other

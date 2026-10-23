@@ -1,6 +1,6 @@
 // Copyright 2026 Jeff Ward, Beneficial Strategies. Usage subject to license of enclosing library.
 
-namespace BeneficialStrategies.Iso20022.Samples.ReservationType2Choice.Valid;
+namespace BeneficialStrategies.Iso20022.Messages.Samples.ReservationType2Choice.Valid;
 
 /// <summary>Valid samples of <c>Code</c> of <c>ReservationType2Choice</c>.</summary>
 public static class Code

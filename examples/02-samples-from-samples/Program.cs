@@ -1,10 +1,10 @@
 // Example 02: samples are built from samples.
 // Shows:  a bigger sample made of the samples of its parts, and the Minimal and Maximal shape of a scenario.
-// Needs:  BeneficialStrategies.Iso20022.Samples.
+// Needs:  BeneficialStrategies.Iso20022.Messages.Samples.
 // Prints: the IBAN inside a cash account sample, then a Minimal and a Maximal sample side by side.
 using BeneficialStrategies.Iso20022.Choices.AccountIdentification4Choice;
 using BeneficialStrategies.Iso20022.Components;
-using Samples = BeneficialStrategies.Iso20022.Samples;
+using Samples = BeneficialStrategies.Iso20022.Messages.Samples;
 
 // <snippet part>
 ICashAccount40 account = Samples.CashAccount40.Valid.Standard.Minimal;

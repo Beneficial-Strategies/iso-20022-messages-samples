@@ -1,6 +1,6 @@
 # This repository
 
-Named, valid ISO 20022 objects for tests, and a generated minimal valid object for any interface of the model, built through the Factory against the interfaces. (NuGet package `BeneficialStrategies.Iso20022.Samples`). It is public.
+Named, valid ISO 20022 objects for tests, and a generated minimal valid object for any interface of the model, built through the Factory against the interfaces. (NuGet package `BeneficialStrategies.Iso20022.Messages.Samples`). It is public.
 
 ## Layout
 

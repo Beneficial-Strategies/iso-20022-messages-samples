@@ -1,9 +1,9 @@
 // Example 03: vary a sample.
 // Shows:  a copy of a sample with the one member a test is about changed; the sample itself is untouched.
-// Needs:  BeneficialStrategies.Iso20022.Samples (which brings the Factory).
+// Needs:  BeneficialStrategies.Iso20022.Messages.Samples (which brings the Factory).
 // Prints: the identification of the copy and of the sample.
 using BeneficialStrategies.Iso20022.Factory;
-using Samples = BeneficialStrategies.Iso20022.Samples;
+using Samples = BeneficialStrategies.Iso20022.Messages.Samples;
 
 // <snippet with>
 var changed = IsoDataFactory.With(Samples.AccountIdentification4Choice.Valid.Other.Minimal, b => b

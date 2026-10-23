@@ -2,7 +2,7 @@
 
 using System.Reflection;
 
-namespace BeneficialStrategies.Iso20022.Samples;
+namespace BeneficialStrategies.Iso20022.Messages.Samples;
 
 /// <summary>Whether a member of an interface is optional, read from the nullable annotations the compiler writes (the same on every target).</summary>
 internal static class Nullability

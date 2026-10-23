@@ -1,6 +1,6 @@
 // Copyright 2026 Jeff Ward, Beneficial Strategies. Usage subject to license of enclosing library.
 
-namespace BeneficialStrategies.Iso20022.Samples.AcknowledgementDetails1Choice.Valid;
+namespace BeneficialStrategies.Iso20022.Messages.Samples.AcknowledgementDetails1Choice.Valid;
 
 /// <summary>Valid samples of <c>PayInScheduleReference</c> of <c>AcknowledgementDetails1Choice</c>.</summary>
 public static class PayInScheduleReference

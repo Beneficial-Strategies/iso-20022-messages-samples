@@ -1,6 +1,6 @@
 ![Beneficial Strategies](https://raw.githubusercontent.com/Beneficial-Strategies/iso-20022-messages-samples/main/.beneficial/logo.png)
 
-# BeneficialStrategies.Iso20022.Samples
+# BeneficialStrategies.Iso20022.Messages.Samples
 
 Named, valid ISO 20022 objects for tests, and a generated minimal valid object for any interface of the model, built through the Factory against the interfaces, so a test needs no message records.
 
@@ -11,7 +11,7 @@ The samples are built against the **interfaces** of the model ([BeneficialStrate
 ## Install
 
 ```
-dotnet add package BeneficialStrategies.Iso20022.Samples --prerelease
+dotnet add package BeneficialStrategies.Iso20022.Messages.Samples --prerelease
 ```
 
 The package is in alpha, so the command asks for a prerelease version. It depends on `Primitives`, `Messages` and `Factory`, not on the message records, and targets netstandard2.0, net8.0 and net10.0. Four examples follow, each a step further.
@@ -125,7 +125,7 @@ Samples/<Type>/Valid/<Scenario>.cs     a static class per scenario, with Minimal
 Samples/<Type>/Invalid/<Issue>.cs      one static class per known issue
 ```
 
-* **Namespace and name:** `BeneficialStrategies.Iso20022.Samples.<Type>.Valid.<Scenario>`. `<Type>` is the name of the message, component or choice as in the model. For a **variant of a choice**, `<Scenario>` is the variant (`AccountIdentification4Choice.Valid.Other`); for **any other type** it is `Standard` (`CashAccount40.Valid.Standard`).
+* **Namespace and name:** `BeneficialStrategies.Iso20022.Messages.Samples.<Type>.Valid.<Scenario>`. `<Type>` is the name of the message, component or choice as in the model. For a **variant of a choice**, `<Scenario>` is the variant (`AccountIdentification4Choice.Valid.Other`); for **any other type** it is `Standard` (`CashAccount40.Valid.Standard`).
 * **`Minimal` and `Maximal`:** two valid shapes; `Maximal` has more members set, and exists only where it differs from `Minimal`.
 * **Properties, not fields,** so each access builds a new object.
 * **Built from other samples,** with `IsoDataFactory.Make<T>` (and `IsoDataFactory.With` to change a copy of another); a sample makes objects of the interfaces only that way.

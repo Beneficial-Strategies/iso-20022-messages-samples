@@ -1,10 +1,10 @@
 // Example 04: a sample for any type.
 // Shows:  IsoSample.Minimal<T>(), a valid object made from the interface itself, and that a named sample wins where there is one.
-// Needs:  BeneficialStrategies.Iso20022.Samples.
+// Needs:  BeneficialStrategies.Iso20022.Messages.Samples.
 // Prints: a generated component, and a choice for which a named sample exists.
 using BeneficialStrategies.Iso20022.Choices;
 using BeneficialStrategies.Iso20022.Components;
-using Samples = BeneficialStrategies.Iso20022.Samples;
+using Samples = BeneficialStrategies.Iso20022.Messages.Samples;
 
 // <snippet any>
 IGenericIdentification3 id = Samples.IsoSample.Minimal<IGenericIdentification3>();

@@ -12,7 +12,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="BeneficialStrategies.Iso20022.Samples" Version="$(Version)" />
+    <PackageReference Include="BeneficialStrategies.Iso20022.Messages.Samples" Version="$(Version)" />
   </ItemGroup>
 
 </Project>

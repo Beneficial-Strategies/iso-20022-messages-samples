@@ -1,6 +1,6 @@
 // Copyright 2026 Jeff Ward, Beneficial Strategies. Usage subject to license of enclosing library.
 
-namespace BeneficialStrategies.Iso20022.Samples.DatePeriod2Choice.Valid;
+namespace BeneficialStrategies.Iso20022.Messages.Samples.DatePeriod2Choice.Valid;
 
 /// <summary>Valid samples of <c>FromDate</c> of <c>DatePeriod2Choice</c>.</summary>
 public static class FromDate

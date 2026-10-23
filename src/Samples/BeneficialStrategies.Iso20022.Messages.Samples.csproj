@@ -6,15 +6,15 @@
     <LangVersion>latest</LangVersion>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <RootNamespace>BeneficialStrategies.Iso20022.Samples</RootNamespace>
-    <AssemblyName>BeneficialStrategies.Iso20022.Samples</AssemblyName>
+    <RootNamespace>BeneficialStrategies.Iso20022.Messages.Samples</RootNamespace>
+    <AssemblyName>BeneficialStrategies.Iso20022.Messages.Samples</AssemblyName>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <IsPackable>true</IsPackable>
   </PropertyGroup>
 
   <PropertyGroup>
     <PackageFiles>$(MSBuildThisFileDirectory)..\..\artifacts\package\</PackageFiles>
-    <PackageId>BeneficialStrategies.Iso20022.Samples</PackageId>
+    <PackageId>BeneficialStrategies.Iso20022.Messages.Samples</PackageId>
     <PackageDescription>Named, valid ISO 20022 objects for tests, and a generated minimal valid object for any interface of the model, built through the Factory against the interfaces, so a test needs no message records.</PackageDescription>
     <!-- The README and the release notes of a release are made by tools/package/prepare_package_files.py; without them (a local pack) the README of the repository is used. -->
     <PackageReleaseNotes Condition="Exists('$(PackageFiles)release-notes.txt')">$([System.IO.File]::ReadAllText("$(PackageFiles)release-notes.txt"))</PackageReleaseNotes>
@@ -36,7 +36,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <InternalsVisibleTo Include="BeneficialStrategies.Iso20022.Samples.Tests" />
+    <InternalsVisibleTo Include="BeneficialStrategies.Iso20022.Messages.Samples.Tests" />
     <InternalsVisibleTo Include="BeneficialStrategies.Iso20022.FluentValidation.Tests" />
   </ItemGroup>
 
