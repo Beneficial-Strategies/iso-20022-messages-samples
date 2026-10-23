@@ -1,6 +1,6 @@
 // Copyright 2026 Jeff Ward, Beneficial Strategies. Usage subject to license of enclosing library.
 
-namespace BeneficialStrategies.Iso20022.Samples.AdviceType1Choice.Valid;
+namespace BeneficialStrategies.Iso20022.Messages.Samples.AdviceType1Choice.Valid;
 
 /// <summary>Valid samples of <c>Proprietary</c> of <c>AdviceType1Choice</c>.</summary>
 public static class Proprietary

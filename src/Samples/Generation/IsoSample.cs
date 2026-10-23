@@ -1,6 +1,6 @@
 // Copyright 2026 Jeff Ward, Beneficial Strategies. Usage subject to license of enclosing library.
 
-namespace BeneficialStrategies.Iso20022.Samples;
+namespace BeneficialStrategies.Iso20022.Messages.Samples;
 
 /// <summary>
 /// A valid object for any interface of the model, made from the interface itself: for the types that have no named sample.

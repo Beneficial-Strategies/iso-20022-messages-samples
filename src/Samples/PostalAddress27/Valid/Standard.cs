@@ -1,6 +1,6 @@
 // Copyright 2026 Jeff Ward, Beneficial Strategies. Usage subject to license of enclosing library.
 
-namespace BeneficialStrategies.Iso20022.Samples.PostalAddress27.Valid;
+namespace BeneficialStrategies.Iso20022.Messages.Samples.PostalAddress27.Valid;
 
 /// <summary>Valid samples of <c>Standard</c> of <c>PostalAddress27</c>.</summary>
 public static class Standard

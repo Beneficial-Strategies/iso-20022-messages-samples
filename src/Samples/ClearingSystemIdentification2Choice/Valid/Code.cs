@@ -1,6 +1,6 @@
 // Copyright 2026 Jeff Ward, Beneficial Strategies. Usage subject to license of enclosing library.
 
-namespace BeneficialStrategies.Iso20022.Samples.ClearingSystemIdentification2Choice.Valid;
+namespace BeneficialStrategies.Iso20022.Messages.Samples.ClearingSystemIdentification2Choice.Valid;
 
 /// <summary>Valid samples of <c>Code</c> of <c>ClearingSystemIdentification2Choice</c>.</summary>
 public static class Code

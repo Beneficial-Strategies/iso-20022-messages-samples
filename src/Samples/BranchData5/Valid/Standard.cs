@@ -1,6 +1,6 @@
 // Copyright 2026 Jeff Ward, Beneficial Strategies. Usage subject to license of enclosing library.
 
-namespace BeneficialStrategies.Iso20022.Samples.BranchData5.Valid;
+namespace BeneficialStrategies.Iso20022.Messages.Samples.BranchData5.Valid;
 
 /// <summary>Valid samples of <c>Standard</c> of <c>BranchData5</c>.</summary>
 public static class Standard

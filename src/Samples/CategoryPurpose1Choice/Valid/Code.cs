@@ -1,6 +1,6 @@
 // Copyright 2026 Jeff Ward, Beneficial Strategies. Usage subject to license of enclosing library.
 
-namespace BeneficialStrategies.Iso20022.Samples.CategoryPurpose1Choice.Valid;
+namespace BeneficialStrategies.Iso20022.Messages.Samples.CategoryPurpose1Choice.Valid;
 
 /// <summary>Valid samples of <c>Code</c> of <c>CategoryPurpose1Choice</c>.</summary>
 public static class Code

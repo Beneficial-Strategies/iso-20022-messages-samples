@@ -1,6 +1,6 @@
 // Copyright 2026 Jeff Ward, Beneficial Strategies. Usage subject to license of enclosing library.
 
-namespace BeneficialStrategies.Iso20022.Samples.ClearingSystemIdentification3Choice.Valid;
+namespace BeneficialStrategies.Iso20022.Messages.Samples.ClearingSystemIdentification3Choice.Valid;
 
 /// <summary>Valid samples of <c>Proprietary</c> of <c>ClearingSystemIdentification3Choice</c>.</summary>
 public static class Proprietary

@@ -1,0 +1,2 @@
+IGenericIdentification3_1 { Identification = A, Issuer = null }
+IIBAN_2 { Value = DE89370400440532013000 }

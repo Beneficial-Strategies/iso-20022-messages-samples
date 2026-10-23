@@ -2,7 +2,7 @@
 
 using System.Text;
 
-namespace BeneficialStrategies.Iso20022.Samples;
+namespace BeneficialStrategies.Iso20022.Messages.Samples;
 
 /// <summary>
 /// Makes a string that matches one of the patterns of the primitive types (the subset of regular expressions the ISO 20022 schemas use:

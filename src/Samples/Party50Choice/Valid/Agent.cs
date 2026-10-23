@@ -1,6 +1,6 @@
 // Copyright 2026 Jeff Ward, Beneficial Strategies. Usage subject to license of enclosing library.
 
-namespace BeneficialStrategies.Iso20022.Samples.Party50Choice.Valid;
+namespace BeneficialStrategies.Iso20022.Messages.Samples.Party50Choice.Valid;
 
 /// <summary>Valid samples of <c>Agent</c> of <c>Party50Choice</c>.</summary>
 public static class Agent

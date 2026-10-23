@@ -5,7 +5,7 @@ using System.Collections.Concurrent;
 using System.Globalization;
 using System.Reflection;
 
-namespace BeneficialStrategies.Iso20022.Samples;
+namespace BeneficialStrategies.Iso20022.Messages.Samples;
 
 /// <summary>Builds the objects of <see cref="IsoSample"/> from an interface, through the factory.</summary>
 internal static class SampleBuilder
@@ -138,7 +138,7 @@ internal static class SampleBuilder
         }
         if (typeName is null)
             return null;
-        var sampleClass = typeof(SampleBuilder).Assembly.GetType($"BeneficialStrategies.Iso20022.Samples.{typeName}.Valid.{scenario}", throwOnError: false);
+        var sampleClass = typeof(SampleBuilder).Assembly.GetType($"BeneficialStrategies.Iso20022.Messages.Samples.{typeName}.Valid.{scenario}", throwOnError: false);
         var minimal = sampleClass?.GetProperty("Minimal", BindingFlags.Public | BindingFlags.Static);
         if (minimal is null || !type.IsAssignableFrom(minimal.PropertyType))
             return null;

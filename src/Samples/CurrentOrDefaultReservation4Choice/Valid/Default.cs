@@ -1,6 +1,6 @@
 // Copyright 2026 Jeff Ward, Beneficial Strategies. Usage subject to license of enclosing library.
 
-namespace BeneficialStrategies.Iso20022.Samples.CurrentOrDefaultReservation4Choice.Valid;
+namespace BeneficialStrategies.Iso20022.Messages.Samples.CurrentOrDefaultReservation4Choice.Valid;
 
 /// <summary>Valid samples of <c>Default</c> of <c>CurrentOrDefaultReservation4Choice</c>.</summary>
 public static class Default
