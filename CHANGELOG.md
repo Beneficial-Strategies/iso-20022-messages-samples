@@ -2,6 +2,10 @@
 
 The versions of this package have three parts, `design.breaking.compatible`: the first changes with a redesign, the second with a change that breaks existing users, the third with every other change. Newest first. Each entry is written from the issues closed since the previous release.
 
+## 1.1.0 (2026-10-25)
+
+* Added: First stable release: the samples of 1.1.0-alpha, which build identifiers with valid check digits, depending on the stable Primitives 1.1.1, Messages 1.0.1 and Factory 1.0.0 (#17).
+
 ## 1.1.0-alpha (2026-10-25)
 
 * Breaking change: The package needs Primitives 1.1.0-alpha or later (the types now check what their standards say); its dependency ranges end before the first pre-release of the next second part (#10).
