@@ -8,14 +8,6 @@ Named, valid ISO 20022 objects for tests, and a generated minimal valid object f
 
 The samples are built against the **interfaces** of the model ([BeneficialStrategies.Iso20022.Messages](https://www.nuget.org/packages/BeneficialStrategies.Iso20022.Messages)), the contract the rest of the family is written to, with the objects made by the [Factory](https://www.nuget.org/packages/BeneficialStrategies.Iso20022.Factory). So a sample works with anything that takes the interface: the validators, a consumer of a message bus, a method of your own.
 
-## Install
-
-```
-dotnet add package BeneficialStrategies.Iso20022.Messages.Samples --prerelease
-```
-
-The package is in alpha, so the command asks for a prerelease version. It depends on `Primitives`, `Messages` and `Factory`, not on the message records, and targets netstandard2.0, net8.0 and net10.0. Four examples follow, each a step further.
-
 ## How to use
 
 ### Take a sample
@@ -108,7 +100,7 @@ Try the [project](https://github.com/Beneficial-Strategies/iso-20022-messages-sa
 ## More
 
 * Documentation, release notes and issues: https://github.com/Beneficial-Strategies/iso-20022-messages-samples
-* License: MIT. Status: alpha.
+* License: MIT. Status: stable.
 
 ### What is here, and what is coming
 
