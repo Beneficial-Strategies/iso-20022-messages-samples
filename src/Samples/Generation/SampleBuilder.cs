@@ -213,6 +213,13 @@ internal static class SampleBuilder
         return null;
     }
 
+    // IBAN (the registry's example), LEI, ISIN, DTI, GLN, Fedwire routing number, CUSIP, SEDOL, UTI, CFI
+    private static readonly string[] KnownIdentifiers =
+    {
+        "GB82WEST12345698765432", "5493001KJTIIGC8Y1R12", "US0378331005", "X9J9K872S", "4012345000009",
+        "FW021000021", "037833100", "0263494", "5493001KJTIIGC8Y1R12UTI0001", "ESVUFR",
+    };
+
     private static IEnumerable<string> Texts(Type type)
     {
         const BindingFlags any = BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static;
@@ -236,6 +243,9 @@ internal static class SampleBuilder
         yield return "2026-01-01T00:00:00";
         yield return "2026-01-01";
         yield return "12:00:00";
+        // last, so a plain text type keeps its short value: public identifiers whose check digits are right
+        foreach (var known in KnownIdentifiers)
+            yield return known;
     }
 
     private static IEnumerable<object> Values(Type type)
