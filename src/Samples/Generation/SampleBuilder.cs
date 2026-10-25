@@ -235,9 +235,6 @@ internal static class SampleBuilder
                     yield return sample;
             }
         }
-        // identifiers that carry a check digit: public examples whose check digits are right
-        foreach (var known in KnownIdentifiers)
-            yield return known;
         var min = type.GetField("MinLength", BindingFlags.Public | BindingFlags.Static)?.GetRawConstantValue() as int? ?? 1;
         var max = type.GetField("MaxLength", BindingFlags.Public | BindingFlags.Static)?.GetRawConstantValue() as int? ?? 35;
         yield return new string('A', Math.Max(min, 1));
@@ -246,6 +243,9 @@ internal static class SampleBuilder
         yield return "2026-01-01T00:00:00";
         yield return "2026-01-01";
         yield return "12:00:00";
+        // last, so a plain text type keeps its short value: public identifiers whose check digits are right
+        foreach (var known in KnownIdentifiers)
+            yield return known;
     }
 
     private static IEnumerable<object> Values(Type type)
